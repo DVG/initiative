@@ -5,5 +5,7 @@ Router = Ember.Router.extend
   location: config.locationType
 
 Router.map ->
+  @resource "encounters", ->
+    @route "new"
 
 `export default Router`

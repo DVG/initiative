@@ -1,0 +1,9 @@
+h2 Listing Encounters
+ul
+  each encounter in controller
+    li
+      encounter.name
+
+link-to "encounters.new" class="btn btn-primary"
+  | New Encounter
+

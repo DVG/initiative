@@ -1,3 +1,14 @@
-h2#title Welcome to Ember.js
+#container.container
+  nav.navbar.navbar-default role="navigation"
+    .container-fluid
+      .navbar-header
+        link-to "index" class="navbar-brand"
+          | Initiative
+      .collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li 
+            link-to "encounters"
+              | Encounters
 
-outlet
+
+  outlet
