@@ -8,7 +8,10 @@
         ul.nav.navbar-nav
           li 
             link-to "encounters"
-              | Encounters
+             | Encounters
+          li
+            link-to "players"
+              | Players
 
 
   outlet

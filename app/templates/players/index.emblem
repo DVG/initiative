@@ -1,0 +1,9 @@
+h2 Listing Players
+
+ul
+  each player in controller
+    li 
+      | #{player.name} #{player.currentHP}/#{player.maxHP}
+
+link-to "players.new" class="btn btn-primary"
+  | New Player

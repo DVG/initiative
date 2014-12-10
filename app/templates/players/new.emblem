@@ -1,0 +1,6 @@
+h2 New Player
+
+form role="form" submit="createPlayer"
+  bs-input type="text" labelText="Name" value=name errors=errors.name
+  bs-input type="text" labelText="Max HP" value=maxHP errors=errors.maxHP
+  button.btn.btn-primary type="submit" Create Player

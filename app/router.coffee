@@ -7,5 +7,7 @@ Router = Ember.Router.extend
 Router.map ->
   @resource "encounters", ->
     @route "new"
+  @resource "players", ->
+    @route "new"
 
 `export default Router`
